@@ -14,6 +14,7 @@ import PetDetails from './PetDetails'
 import PageNotFound from './PageNotFound'
 import Nav from './Nav'
 import Footer from './Footer'
+import Home from './Home'
 
 class App extends Component {
   componentDidMount () {
@@ -30,11 +31,12 @@ class App extends Component {
               ? null
               : <div className='app-contents'>
                   <Switch>
-                    <Route path='/' exact component={Login}/>
+                    <Route path='/' exact component={Home}/>
+                    <Route path='/signin' exact component={Login}/>
                     <Route path='/home' exact component={Dashboard}/>
                     <Route path='/pet/:id' exact component={PetDetails}/>
                     <Route path='/404' component = {PageNotFound}/>
-                    <Route component={Login} />
+                    <Route component={Home} />
                   </Switch>
                 </div>
             }

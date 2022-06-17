@@ -110,27 +110,28 @@ class Nav extends Component {
             Tales
           </NvLink>
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-        </NavBtn>
-        <nav className='nav'>
-          {this.props.username &&
-            (<div className='user-nav'>
-              <ul>
-                <li className='user-actions'>
-                  <span className='username'>Hello, {username}</span>
-                  <img
-                    src={avatar}
-                    alt={`Avatar of ${username}`}
-                    className='nav-avatar'/>
-                  <Link className='user-logout' to='/' exact activeClassName='active'>
-                    Logout
-                  </Link>
-                </li>
-              </ul>
-            </div>)
-          }
-        </nav>
+        {this.props.username==null ?
+
+          (<NavBtn>
+            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          </NavBtn>) :
+
+          (<nav className='nav'>
+              <div className='user-nav'>
+                <ul>
+                  <li className='user-actions'>
+                    <span className='username'>{username}</span>
+                    <img
+                      src={avatar}
+                      alt={`Avatar of ${username}`}
+                      className='nav-avatar'/>
+                    <Link className='user-logout' to='/' exact activeClassName='active'>
+                      Logout
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+          </nav>)}
       </div>
     )
   }

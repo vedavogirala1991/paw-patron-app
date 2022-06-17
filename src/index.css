@@ -899,6 +899,19 @@ ul {
   margin-left: -4px;
 }
 
+.paw-heading {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: lightgrey;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: grey;
+}
+.patron-heading {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: ;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: lightgrey;
+}
+
 .patron-title {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   margin-top: 47px;
@@ -1037,4 +1050,335 @@ ul {
   margin-left: 125px;
   margin-right: 125px;
   font-size: 10px;
+}
+
+.services-container {
+    display: flex;
+    margin: 30px;
+}
+
+.dreampet-flex {
+    flex: 1;
+    background: #d8f2ff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+}
+
+.vet-flex {
+    flex: 1;
+    background: #fbecee;
+    padding-top: 20px;
+    padding-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcomepp {
+  margin: -20px 20px 20px 20px;
+  background: #faeacb;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pphomepage {
+  text-align: center;
+  display: inline-block;
+  margin-left: -5px;
+  margin-right: -30px;
+  background-color: #f5f3f0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 101%;
+  border-radius: 8px;
+}
+
+.petcare-container {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.dreampet-container {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.petcare-text {
+  flex: 1;
+  width: 60%;
+  padding-left: 20px;
+}
+
+.pp-intro {
+  color: #615346;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.petcare-bg {
+  margin-top: -20px;
+  margin-left: -40px;
+  flex: 1;
+  width: 40%;
+}
+
+.care-text {
+  font-size: 50px;
+  color: #74471d;
+}
+
+.find-text {
+  font-size: 25px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.find-pet-text {
+  margin-left: -50px;
+  padding-top: 30px;
+  font-size: 35px;
+  color: #03063a;
+}
+
+.dream-blue {
+  color: #56a7f0;
+}
+
+.care-text-heading {
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #615346;
+  padding-top: 20px;
+  font-size: 70px;
+  color: white;
+}
+
+.rainbow-pets {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #d98e47, #ff5722, #ef5350, #f48fb1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.happy-pets {
+  width: 700px;
+  height: 500px;
+}
+
+.intro-highlight {
+  color: black;
+  font-weight: bold;
+}
+
+.pplogo-intro {
+  height: 60px;
+  margin-top: 20px;
+}
+
+.intro-bone {
+  height: 100px;
+}
+
+.register-btn {
+  height: 3rem;
+  border: transparent;
+  border-radius: .25rem;
+  background: #615346;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  font-weight: bold;
+}
+
+.yourpets-btn {
+  height: 3rem;
+  border: transparent;
+  border-radius: .25rem;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  font-weight: bold;
+}
+
+.adopt-btn {
+  height: 3rem;
+  border: 2px solid #03063a;
+  border-radius: .25rem;
+  background: #fff;
+  color: #03063a;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  font-weight: bold;
+}
+
+.services-btn {
+  height: 3rem;
+  border-radius: .25rem;
+  border: 1px solid #615346;
+  background: white;
+  color: #615346;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0px 0px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 250px;
+  position: relative;
+}
+
+.login-container {
+  display: flex;
+  margin-left: 50px;
+}
+
+.records-pets {
+  padding-top: 30px;
+  width: 420px;
+  height: 250px;
+}
+
+.find-pet-1 {
+  width: 300px;
+  height: 250px;
+}
+
+.find-pets {
+  width: 450px;
+  height: 380px;
+}
+
+.vet-clinic {
+  padding-top: 20px;
+  width: 350px;
+  height: 280px;
+}
+
+.find-bg1 {
+    flex: 1;
+}
+
+.join-community {
+  display: flex;
+  margin: 20px 30px 20px 30px;
+  background: #f0f9e5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.joincomm-flex {
+  flex: 1;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.join-text {
+  padding-top: 30px;
+  font-size: 35px;
+  color: #203605;
+}
+
+.two-imges {
+  display: inline-flex;
+}
+
+.love-comm1 {
+  width: 280px;
+  height: 220px;
+}
+
+.love-comm2 {
+  padding-top: 30px;
+  width: 180px;
+  height: 130px;
+}
+
+.love-comm3 {
+  width: 180px;
+  height: 150px;
+}
+
+.joinus-btn {
+  height: 3rem;
+  border: transparent;
+  border-radius: .25rem;
+  background: #746f5f;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  font-weight: bold;
+}
+
+.showus-love {
+  flex: 1;
+  padding-top: 30px;
+  margin-left: -200px;
+}
+
+.showus-love-text {
+  padding-top: 20px;
+  color: #615346;
+  font-size: 20px;
+}
+
+.support-flex {
+    flex: 1;
+    margin: 20px 20px 20px -20px;
+    background: #203605;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.supportus-text {
+  color: white;
+  padding: 20px 20px 0px 20px;
+  font-size: 20px;
+}
+
+.products img{
+  border-radius: 50%;
+}
+
+.product-icon {
+  padding: 10px;
+  height: 125px;
+  width: 125px;
+}
+
+.store-btn {
+  height: 3rem;
+  border: transparent;
+  border-radius: .25rem;
+  background: #fff;
+  color: #203605;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  font-weight: bold;
 }
